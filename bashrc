@@ -101,6 +101,11 @@ alias la='ls -A'
 alias l='ls -CF'
 
 export EDITOR=vim
+set -o vi
+#VLESS=$(find /usr/share/vim -name 'less.sh')
+#if [ ! -z $VLESS ]; then
+#  alias less=$VLESS
+#fi
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert

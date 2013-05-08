@@ -1,8 +1,8 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/hedev/.vim'
-let g:netrw_dirhist_2='/home/hedev/sandbox/mmo1/tools/shardscope/client_src/static'
-let g:netrw_dirhist_3='/home/hedev/sandbox/mmo1/tools/shardscope/client'
-let g:netrw_dirhist_4='/home/hedev/config/shardtool/src/shardtool'
-let g:netrw_dirhist_5='/etc/httpd/conf.d'
-let g:netrw_dirhist_6='/home/hedev/config/config_system/datastores/production-prep'
+let g:netrw_dirhist_1='/home/dean/gcat/config/settings'
+let g:netrw_dirhist_2='/home/dean/gcat/vendor/assets/javascripts'
+let g:netrw_dirhist_3='/home/dean/gcat/.bundle'
+let g:netrw_dirhist_4='/home/dean/gcat/app/assets/javascripts/templates/dashboard'
+let g:netrw_dirhist_5='/home/dean/gcat/app/assets/javascripts/view_models/data_sets'
+let g:netrw_dirhist_6='/home/dean/gcat/config/deploy'

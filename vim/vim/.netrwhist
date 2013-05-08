@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/hedev/.vim'
+let g:netrw_dirhist_2='/home/hedev/sandbox/mmo1/tools/shardscope/client_src/static'
+let g:netrw_dirhist_3='/home/hedev/sandbox/mmo1/tools/shardscope/client'
+let g:netrw_dirhist_4='/home/hedev/config/shardtool/src/shardtool'
+let g:netrw_dirhist_5='/etc/httpd/conf.d'
+let g:netrw_dirhist_6='/home/hedev/config/config_system/datastores/production-prep'

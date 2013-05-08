@@ -292,6 +292,7 @@ filetype plugin indent on
 syntax on
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
+au BufNewFile,BufReadPost *.khtml set filetype=html
 
 set tags=./tags,tags;
 
