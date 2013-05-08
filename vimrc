@@ -292,3 +292,6 @@ filetype plugin indent on
 syntax on
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
+
+set tags=./tags;/
+
