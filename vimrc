@@ -77,7 +77,8 @@ set wildmenu
 set wildmode=list:longest,full
 
 " Enable mouse support in console
-"set mouse=a
+set mouse=a
+set ttymouse=xterm2
 
 " Got backspace?
 set backspace=2
