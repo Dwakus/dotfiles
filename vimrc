@@ -275,6 +275,8 @@ inoremap <expr> <m-;> pumvisible() ? "\<lt>c-n>" : "\<lt>c-x>\<lt>c-o>\<lt>c-n>\
 
 "ly$O#{{{ "lpjjj_%A#}}}jjzajj
 
+map <C-n> :NERDTreeToggle<CR>
+
 "}}}
 
 "{{{Taglist configuration
@@ -289,11 +291,13 @@ let g:rct_completion_use_fri = 1
 "let g:Tex_DefaultTargetFormat = "pdf"
 let g:Tex_ViewRule_pdf = "kpdf"
 
-filetype plugin indent on
+call pathogen#infect()
 syntax on
+filetype plugin indent on
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 au BufNewFile,BufReadPost *.khtml set filetype=html
 
 set tags=./tags,tags;
+
 
