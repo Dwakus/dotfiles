@@ -298,6 +298,8 @@ filetype plugin indent on
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 au BufNewFile,BufReadPost *.khtml set filetype=html
 
+au BufNewFile,BufReadPost *.cpp,*.h,*.c setl sw=4 sts=4 ts=4
+
 set tags=./tags,tags;
 
 
