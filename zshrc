@@ -42,7 +42,7 @@ DEFAULT_USER="dean"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git battery bundler capistrano colored-man cp gem git-extras github rails3 rake ssh-agent tmux history-substring-search)
+plugins=(git battery bundler capistrano colored-man cp gem git-extras github rails3 rake ssh-agent history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 
