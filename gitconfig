@@ -1,0 +1,8 @@
+[user]
+	email = dean@genebygene.com
+	name = Dean Kusler
+[push]
+	behavior = simple
+	default = matching
+[color]
+	ui = true
